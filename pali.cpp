@@ -29,7 +29,7 @@ long long int reverseNum(long long int n){
 }
 
 int main(){
-    long long int count = 0, number = 196; // declare count for number of iterations required to get a palindrome
+    long long int count = 0, number = 1712; // declare count for number of iterations required to get a palindrome
 
     while(number != reverseNum(number)){
         int reverse = reverseNum(number);
